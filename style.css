@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#fcba03;
+    
+}
+
+#formControl{
+    background-color: white;
+    height:1100px;
+    width:800px;
+    /* margin-left: 390px;
+    margin-top: 40px; */
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+
+
+#box #one{
+    margin-top: 50px;
+}
+
+.values{
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+.values label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+.values input,
+.values select,
+.values textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+
+.values input[type="radio"],
+.values input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color:#fcba03;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
